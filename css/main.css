@@ -45,8 +45,7 @@ body {
 	width: 100%;
 	max-width: 1370px;
 	margin: auto;
-	border-left: 1px solid #f7f7f7;
-	border-right: 1px solid #f7f7f7;
+
 }
 
 .left{
@@ -168,6 +167,8 @@ header{
 	border: 1px solid #6e62ff;
 	min-height: 300px;
 	padding-top: 15px;
+	border-left: 1px solid #f7f7f7;
+	border-right: 1px solid #f7f7f7;
 }
 
 .wrap_main_categories:after{

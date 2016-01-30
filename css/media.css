@@ -22,3 +22,19 @@
 	}
 
 }
+
+
+@media screen and (max-width: 470px) {
+	.left_col_main_categories{
+		width: 100%;
+	}
+
+	.belt_main_categories{
+		width: 100%;
+		margin-bottom: 2px;
+	}
+
+	.right_col_main_categories{
+		width: 100%;
+	}
+}

@@ -75,7 +75,6 @@ body {
 header{
 	width: 100%;
 	max-width: 1370px;
-	min-width: 540px;
 	border: 0px solid red;
 	padding: 10px 0 5px;
 	box-sizing: border-box;
@@ -100,6 +99,62 @@ header{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+}
+
+.burger_menu img{
+	width: 35px;
+	display: none;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.burger_menu_close img{
+	width: 35px;
+	margin-right: 2%;
+	margin-top: 3px;
+	cursor: pointer;
+	float: right;
+}
+
+.nav_mobile{
+	border: 0px solid #6e62ff;
+	width: 80%;
+	position: absolute;
+	right: 0;
+	background-color: rgba(201, 201, 201, 0.7);
+	margin-top: 2px;
+	z-index: 999;
+	display: none;
+}
+
+.nav_mobile ul{
+	margin-bottom: 0;
+}
+
+.menu_mobile li{
+	list-style: none;
+	zoom: 1;
+	*display: inline;
+	border-bottom: 1px solid #dfdfdf;
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+.menu_mobile li:hover{
+	background-color: rgba(113, 113, 113, 0.7);
+}
+
+.menu_mobile li div{
+	height: 40px;
+	text-align: center;
+
+}
+
+.menu_mobile li a{
+	display: block;
+	text-decoration: none;
+	color: #181818;
+	font-size: 18px;
 }
 
 .menu_left{
@@ -162,7 +217,7 @@ header{
 
 .wrap_main_categories{
 	width: 100%;
-	max-width: 1300px;
+	max-width: 1200px;
 	margin: auto;
 	border: 1px solid #6e62ff;
 	min-height: 300px;
@@ -200,11 +255,15 @@ header{
 	margin-right: 10px;
 }
 
+.belt_main_categories img{
+	width: 100%;
+}
+
 .purse_main_categories{
 	width: 100%;
 	min-width: 200px;
 	min-height: 250px;
-	background: #4affff;
+	/*background: #4affff;*/
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -232,4 +291,18 @@ header{
 	-webkit-box-sizing: border-box;
 	margin-right: 5px;
 
+}
+
+.image_hover{
+	position: absolute;
+	max-width: 591px;
+}
+
+.image_upper{
+	position: relative;
+	max-width: 591px;
+}
+
+.image_upper:hover{
+	opacity: 0;
 }

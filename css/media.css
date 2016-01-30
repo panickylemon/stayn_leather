@@ -5,6 +5,21 @@
 
 	.logo{
 		float: left;
-		margin-left: 2%;
+		margin-left: 3%;
 	}
+
+	.burger_menu img{
+		display: block;
+		float: right;
+		margin-right: 3%;
+	}
+
+	header{
+		padding: 3px 0 2px;
+	}
+
+	.logo img {
+		max-width: 70px;
+	}
+
 }

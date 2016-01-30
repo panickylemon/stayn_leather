@@ -13,3 +13,21 @@ $(document).ready(function(){
 });
 
 
+
+function windowSize() {
+    if ($(window).width() >= '524') {
+        $('.burger_menu').hide();
+    }
+    else  {
+        $('.burger_menu').show();
+    }
+}
+$(window).on('load resize', windowSize);
+
+
+$(window).resize(function(){
+    $(".burger_menu_close").hide();
+    $(".nav_mobile").hide();
+});
+// вызовем событие resize
+$(window).resize();

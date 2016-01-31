@@ -100,8 +100,8 @@ header{
 }
 
 .burger_menu img{
-	width: 35px;
-	margin-top: 3px;
+	width: 30px;
+	margin-top: 7px;
 	cursor: pointer;
 }
 
@@ -110,9 +110,9 @@ header{
 }
 
 .burger_menu_close img{
-	width: 37px;
+	width: 32px;
 	margin-right: 2%;
-	margin-top: 3px;
+	margin-top: 6px;
 	cursor: pointer;
 	float: right;
 }
